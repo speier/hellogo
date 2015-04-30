@@ -16,4 +16,6 @@ func main() {
 	fmt.Println("types: interfaces   =", learn.Interfaces())
 	// chans
 	fmt.Println("chans: send-recieve =", learn.SimpleChannels())
+	// webs
+	fmt.Println("wserv: srv response =", learn.WebServer())
 }
